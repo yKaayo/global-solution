@@ -1,0 +1,2 @@
+# global-solution
+ TechSeas - GS

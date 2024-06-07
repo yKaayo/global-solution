@@ -1,0 +1,105 @@
+:root {
+  /* Colors */
+  --color-white: #fcfcfc;
+  --color-dark-green: #003438;
+  --color-light-green: #c2fffd;
+  --color-green: #006c6f;
+  --color-background-header: rgba(194, 255, 253, 0.7);
+  --color-background-footer: #012b2d;
+
+  /* Gradients */
+  --color-gradient-blue: linear-gradient(180deg, #006c6f 0%, #012b2d 100%);
+  --color-gradient-green: linear-gradient(
+    180deg,
+    rgba(223, 223, 223, 1) 0%,
+    rgba(194, 255, 253, 1) 100%
+  );
+
+  /* Fonts */
+  --font-primary: "Sarabun", sans-serif;
+  --font-secondary: "Tajawal", sans-serif;
+  --font-logo: "Abel", sans-serif;
+
+  /* Font-size */
+  --font-size-extra-large: 3.6rem;
+  --font-size-large: 3.2rem;
+  --font-size-medium: 2.8rem;
+  --font-size-small: 2.2rem;
+  --font-size-extra-small: 1.6rem;
+
+  /* Weight */
+  --bold: 700;
+  --medium: 500;
+  --regular: 400;
+
+  /* Measures */
+  --width-page: 90%;
+
+  /* Elevation */
+  --shadow: .2rem .2rem .8rem rgba(0, 0, 0, 0.6);
+
+  /* Transition and Transform */
+  --transition: 0.4s;
+  --transform: scale(1.06);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+  font-weight: var(--regular);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--color-dark-green);
+  text-decoration: none;
+  font-weight: var(--bold);
+}
+
+button {
+  border: none;
+  font-weight: var(--bold);
+}
+
+/* Repetitions */
+h1 {
+  font-size: 3.2rem;
+  font-family: var(--font-logo);
+}
+
+h3 {
+  font-size: var(--font-size-large);
+  color: var(--color-white);
+<<<<<<< HEAD
+  font-weight: var(--medium);
+=======
+>>>>>>> parent of 7bda613 (v1.02)
+  text-align: center;
+  text-wrap: balance;
+}
+
+h4 {
+  font-size: var(--font-size-medium);
+  font-weight: var(--bold);
+  color: var(--color-green);
+  text-align: center;
+}

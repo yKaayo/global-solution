@@ -1,0 +1,145 @@
+/* Contato */
+.contato {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem 0 0 0;
+  padding: 1rem 0 3rem 0;
+}
+
+.contato-content {
+  display: flex;
+  justify-content: space-between;
+  width: var(--width-page);
+  gap: 3.6rem;
+}
+
+/* Formulário */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  padding: 6rem 4rem;
+  gap: 1.6rem;
+  border: 0.2rem solid var(--color-dark-green);
+  border-radius: 4rem;
+  box-shadow: var(--shadow);
+  background-color: var(--color-light-green);
+
+  & p {
+    text-align: center;
+    margin-bottom: 0.8rem;
+    font-size: var(--font-size-small);
+    font-family: var(--font-secondy);
+    color: var(--color-green);
+  }
+
+  & .btn {
+    margin-top: 2rem;
+  }
+}
+
+.form-itens {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+
+  & label {
+    margin: 0 0 0.4rem 2rem;
+    font-size: var(--font-size-small);
+    font-weight: var(--medium);
+    color: var(--color-dark-green);
+  }
+
+  & input {
+    max-width: 100%;
+    padding: 0.6rem 2rem;
+    border: 0.2rem solid var(--color-dark-green);
+    border-radius: 1.2rem;
+    box-shadow: var(--shadow);
+  }
+}
+
+/* Text */
+<<<<<<< HEAD
+.text-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-wrap: balance;
+  width: 45%;
+  gap: 3.6rem;
+  
+  & h3 {
+      text-align: right;
+    }
+    
+    & p {
+      text-align: right;
+    font-size: var(--font-size-medium);
+    font-family: var(--font-secondary);
+    font-weight: var(--medium);
+    line-height: 3.8rem;
+    color: var(--color-light-green);
+  }
+
+  & span {
+    color: var(--color-white);
+    font-weight: var(--bold);
+  }
+=======
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    gap: 2.4rem;
+    text-align: center;
+>>>>>>> parent of 7bda613 (v1.02)
+}
+
+/* Order */
+.order-1 {
+  order: 2;
+}
+.order-2 {
+  order: 1;
+}
+
+/* Responsive */
+@media (width < 1000px) {
+  .contato-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+<<<<<<< HEAD
+  .form,
+  .text-right {
+    width: 90%;
+  }
+
+  .text-right {
+    & h3, p {
+        text-align: center;
+=======
+    .form, .text {
+        width: 100%;
+    }
+    
+    .order-1 {
+        order: 1;
+>>>>>>> parent of 7bda613 (v1.02)
+    }
+  }
+
+  .order-1 {
+    order: 1;
+  }
+
+  .order-2 {
+    order: 2;
+  }
+}

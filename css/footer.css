@@ -1,0 +1,34 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    background-color: var(--color-background-footer);
+
+    & h1 {
+        color: var(--color-white);
+<<<<<<< HEAD
+
+        &:hover:first-child {
+            color: var(--color-green);
+            transition: var(--transition);
+        }
+    }
+
+    & a {
+        color: var(--color-white);
+        transition: var(--transition);
+
+        &:hover {
+            color: var(--color-green);
+        }
+    }
+
+    & i {
+        font-size: 3rem;
+    }
+}
+=======
+    }
+}
+>>>>>>> parent of 7bda613 (v1.02)
