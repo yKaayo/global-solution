@@ -3,11 +3,11 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 3rem 0;
+    gap: 4rem;
     background-color: var(--color-background-footer);
-
+    
     & h1 {
         color: var(--color-white);
-<<<<<<< HEAD
 
         &:hover:first-child {
             color: var(--color-green);
@@ -28,7 +28,3 @@ footer {
         font-size: 3rem;
     }
 }
-=======
-    }
-}
->>>>>>> parent of 7bda613 (v1.02)

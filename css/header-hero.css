@@ -29,10 +29,11 @@
   & ul {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 4rem;
   }
 
-  & a {
+  & a:not(.btn) {
     font-size: var(--font-size-small);
     transition: var(--transition);
   }
@@ -69,11 +70,11 @@
 .small {
   padding: 1.2rem 2.8rem;
   font-size: var(--font-size-extra-small);
-
+  
   &:hover {
     background-color: transparent;
     color: var(--color-dark-green);
-    border: 0.2rem solid var(--color-dark-green);
+    
   }
 }
 
@@ -160,10 +161,4 @@
     nav {
         display: none;
     }
-}
-
-@media (width < 447px) {
-  /* .large {
-    padding: 1.2rem 2.8rem;
-  } */
 }

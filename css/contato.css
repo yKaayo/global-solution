@@ -62,7 +62,6 @@
 }
 
 /* Text */
-<<<<<<< HEAD
 .text-right {
   display: flex;
   flex-direction: column;
@@ -88,16 +87,6 @@
     color: var(--color-white);
     font-weight: var(--bold);
   }
-=======
-.text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 45%;
-    gap: 2.4rem;
-    text-align: center;
->>>>>>> parent of 7bda613 (v1.02)
 }
 
 /* Order */
@@ -115,7 +104,6 @@
     align-items: center;
   }
 
-<<<<<<< HEAD
   .form,
   .text-right {
     width: 90%;
@@ -124,14 +112,6 @@
   .text-right {
     & h3, p {
         text-align: center;
-=======
-    .form, .text {
-        width: 100%;
-    }
-    
-    .order-1 {
-        order: 1;
->>>>>>> parent of 7bda613 (v1.02)
     }
   }
 
